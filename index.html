@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>PyScript Info Showcase</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+
+
+    <!-- <py-config>
+        packages = ["pyscript"]
+    </py-config> -->
+</head>
+<body>
+
+    <h1>Signature Guitar Copies store</h1>
+    <div class="col-md-4">
+                <label>Name:</label>
+                <input type="text" id="name" placeholder="Enter name" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <label>Country</label>
+                <input type="text" id="cntry" placeholder="What country?" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <label>Contact Details</label>
+                <input type="text" id="cntac" placeholder="Email/Phone Number/Instagram" class="form-control">
+            </div>
+            <label>Guitars</label>
+            <div class="col-md-4">
+                <select class="form-select" id="gitrs">
+                    <option value="Anastasia">Slash's Gibson "Jessica" Les Paul Standard</option>
+                    <option value="lottalove">Jimmy Page's 1959 Fender Telecaster guitar</option>
+                    <option value="Layla">Eric Clapton's Guitar</option>
+            
+                    <option value="Prince">Prince's Cloud guitar</option>
+                    <option value="BB King">B.B. King's Lucile Gibson</option>
+                    <option value="Neil Young">Neil Young's Old Black guitar</option>
+                    <option value="Sir Caleb">Mon Espia's Fender Stratocaster guitar</option>
+                </select>
+            </div>
+            <br>
+
+        <button type="submit" class="btn btn-primary mb-3" py-click="show_info">Generate</button>
+        <div id="BRUH"></div>
+
+
+    <script type="py" src="main.py"></script>
+
+</body>
